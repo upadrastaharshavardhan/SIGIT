@@ -617,7 +617,7 @@ if __name__ == "__main__":
             else:
                 if os.path.isdir("/usr/local/bin/"): path = "/usr/local/bin/sigit"
                 else: path = "/usr/bin/sigit"
-            os.system(f"wget https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/sigit.py -O {path} && chmod +x {path}")
+            os.system(f"wget https://raw.githubusercontent.com/upadrastaharshavardhan/SIGIT/main/sigit.py -O {path} && chmod +x {path}")
             print(f"{b}>{w} wrapper script have been updated")
         else: exit(r+"* no command found for: "+str(arg[1:]).replace("[","").replace("]",""))
     else: exit(r+"* no command found for: "+str(arg[1:]).replace("[","").replace("]",""))
